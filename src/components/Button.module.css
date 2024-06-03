@@ -10,13 +10,47 @@
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.7s ease;
+  margin-bottom: 100px;
 }
 
-.button:hover {
-  background-color: #e1a0ff;
+.primary {
+  background-color: #007bff;
+  color: white;
 }
 
-.button:disabled {
+.primary:hover {
+  background-color: #ffa0ef;
+}
+
+.primary:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.secondary {
+  background-color: #23ffb6;
+  color: white;
+}
+
+.secondary:hover {
+  background-color: #a1caff;
+}
+
+.secondary:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.success {
+  background-color: #3dff6a;
+  color: white;
+}
+
+.success:hover {
+  background-color: #3dd2ff;
+}
+
+.success:disabled {
   background-color: #cccccc;
   cursor: not-allowed;
 }

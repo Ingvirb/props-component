@@ -11,7 +11,9 @@ const App: React.FC = () => {
   return (
     <div className="container">
       <h1 className="header">Module 4, guide 2</h1>
-      <Button label="Staðist?" onClick={handleClick} className={""} />
+      <Button label="staðist?" onClick={handleClick} variant="primary" />
+      <Button label="staðist??" onClick={handleClick} variant="secondary" />
+      <Button label="staðist???" onClick={handleClick} variant="success" />
     </div>
   );
 };

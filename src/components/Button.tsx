@@ -8,6 +8,7 @@ interface ButtonProps {
   disabled?: boolean;
   style?: React.CSSProperties;
   className?: string;
+  variant?: "primary" | "secondary" | "success"; // Add more variants as needed
 }
 
 const Button: React.FC<ButtonProps> = ({
@@ -16,13 +17,14 @@ const Button: React.FC<ButtonProps> = ({
   disabled = false,
   style,
   className,
+  variant = "primary",
 }) => {
   return (
     <button
       onClick={onClick}
       disabled={disabled}
       style={style}
-      className={`${styles.button} ${className}`}
+      className={`${styles.button} ${styles[variant]} ${className}`}
     >
       {label}
     </button>
