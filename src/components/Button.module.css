@@ -11,6 +11,7 @@
   cursor: pointer;
   transition: background-color 0.7s ease;
   margin-bottom: 100px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .primary {
@@ -20,6 +21,7 @@
 
 .primary:hover {
   background-color: #ffa0ef;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
 }
 
 .primary:disabled {
@@ -34,6 +36,7 @@
 
 .secondary:hover {
   background-color: #a1caff;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
 }
 
 .secondary:disabled {
@@ -48,6 +51,7 @@
 
 .success:hover {
   background-color: #3dd2ff;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
 }
 
 .success:disabled {
