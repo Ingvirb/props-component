@@ -28,7 +28,7 @@ const App: React.FC = () => {
           outline
         />
         <Button
-          label="Block Button"
+          label="staðist????"
           onClick={handleClick}
           variant="primary"
           block

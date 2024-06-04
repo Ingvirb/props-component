@@ -10,7 +10,7 @@ html {
 }
 
 .container {
-  padding: 2px;
+  padding: 1px;
   display: flex;
   flex-direction: column;
   justify-items: center;
@@ -18,7 +18,9 @@ html {
 }
 
 .header {
-  margin-bottom: 150px;
+  margin-bottom: 50px;
   margin-top: 1px;
   text-shadow: 0 2px 4px rgba(197, 26, 26, 0.541);
+  display: flex;
+  justify-content: center;
 }
