@@ -8,6 +8,8 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  min-width: 1024px;
+  min-height: 768px;
 }
 
 .container {

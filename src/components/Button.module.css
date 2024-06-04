@@ -59,7 +59,6 @@
   cursor: not-allowed;
 }
 
-/* Sizes */
 .small {
   padding: 5px 10px;
   font-size: 14px;
@@ -75,13 +74,11 @@
   font-size: 18px;
 }
 
-/* Outline */
 .outline {
   background-color: transparent;
   border: 1px solid currentColor;
 }
 
-/* Block */
 .block {
   display: block;
   width: 50%;

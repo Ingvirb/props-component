@@ -1,4 +1,3 @@
-// src/App.tsx
 import React from "react";
 import Button from "./components/Button";
 import Navbar from "./components/Navbar";

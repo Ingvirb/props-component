@@ -1,4 +1,3 @@
-// src/components/Navbar.tsx
 import React from "react";
 import Button from "./Button";
 import styles from "./Navbar.module.css";
