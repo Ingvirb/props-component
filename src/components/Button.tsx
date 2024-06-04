@@ -8,6 +8,9 @@ interface ButtonProps {
   style?: React.CSSProperties;
   className?: string;
   variant?: "primary" | "secondary" | "success";
+  size?: "small" | "medium" | "large";
+  outline?: boolean;
+  block?: boolean;
 }
 
 const Button: React.FC<ButtonProps> = ({
@@ -17,13 +20,25 @@ const Button: React.FC<ButtonProps> = ({
   style,
   className,
   variant = "primary",
+  size = "medium",
+  outline = "false",
+  block = "false",
 }) => {
+  const classes = `
+  ${styles.button} 
+  ${styles[variant]} 
+  ${styles[size]} 
+  ${outline ? styles.outline : ""} 
+  ${block ? styles.block : ""}
+  ${className}
+`;
+
   return (
     <button
       onClick={onClick}
       disabled={disabled}
       style={style}
-      className={`${styles.button} ${styles[variant]} ${className}`}
+      className={classes}
     >
       {label}
     </button>

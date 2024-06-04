@@ -1,0 +1,19 @@
+/* src/components/Navbar.module.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 170px;
+  margin-top: -300px;
+}
+
+.navbar > button {
+  margin: 0 10px;
+  cursor: pointer;
+  transition: color 0.7s ease, background-color 0.7s ease;
+}
+
+.navbar > button:hover {
+  color: #ffc250;
+  background-color: #525252;
+}
