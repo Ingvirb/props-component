@@ -1,4 +1,3 @@
-// src/components/Button.tsx
 import React from "react";
 import styles from "./Button.module.css";
 
@@ -8,7 +7,7 @@ interface ButtonProps {
   disabled?: boolean;
   style?: React.CSSProperties;
   className?: string;
-  variant?: "primary" | "secondary" | "success"; // Add more variants as needed
+  variant?: "primary" | "secondary" | "success";
 }
 
 const Button: React.FC<ButtonProps> = ({

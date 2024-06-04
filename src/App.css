@@ -3,11 +3,11 @@ html {
   margin: 0;
   padding: 0;
   height: 100%;
-  width: 100%; /* Ensure the full width is used */
-  background-color: #ffc250; /* Set the background color here */
-  display: flex; /* Use flexbox for centering */
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
+  width: 100%;
+  background-color: #ffc250;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
